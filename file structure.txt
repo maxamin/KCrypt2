@@ -1,0 +1,16 @@
+KCrypt project... File layout:
+
+  Infecter.cpp : wrapper for all crypter, contains entrypoint
+  InfectionHelper.cpp : Contains all main routines, essential core
+  itmaker.cpp : used in conjunction with itmaker.h to append IAT's
+  stub.asm : the crypter stub that takes care of decryption, essential core
+  stub : the nasm compiled stub.asm file
+  infecter.exe : the compiled infection engine
+  release/test.bat : batch script used to test the crypter engine
+  release/crypted.bak : copy of winrar.exe before it was crypted
+  release/crypted.exe : the crypted version of winrar.exe
+  nasm dir : bundled nasm compiler used to build stub.asm
+  
+ Enjoy.
+ 
+ KOrUPt.
